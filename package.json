@@ -1,0 +1,15 @@
+{
+  "name": "government-decision-record-audit-stream-reference",
+  "version": "0.1.0",
+  "description": "AGPL-3.0 reference implementation of the GovTech audit-stream. Runs the PRFSA × VendorG GovDecide v3.x canonical trajectory end-to-end against a mock Federal AI Use Case Inventory + classification-clearance vault. Proves the FIRST Suite audit-stream with THREE orthogonal invariants (human-agency-officer + Federal AI Use Case Inventory entry + classification-clearance enforcement per E.O. 13526) works end-to-end.",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/cli.mjs"
+  },
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/mizcausevic-dev/government-decision-record-audit-stream-reference",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/government-decision-record-audit-stream-reference.git" },
+  "keywords": ["govtech", "audit-stream", "reference-implementation", "omb-m-24-10", "federal-ai-use-case-inventory", "e-o-13526", "classification", "kinetic-gain-protocol-suite"]
+}
